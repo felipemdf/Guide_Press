@@ -14,7 +14,7 @@ Painel administrativo de um blog de artigos criada durante o curso [Formação N
 * [mysql](https://www.mysql.com)
 
 ## :computer: Features
-:white_check_mark: Painel do usuário exibe o título dos artigos em uma estrutura de paginação<br/>
+:white_check_mark: Painel do usuário que exibe o título dos artigos em uma estrutura de paginação<br/>
 :white_check_mark: Painel administrativo que exibe as funcionalidades de adição, exclusão e edição de artigos e categorias <br/>
 :white_check_mark: Painel de login <br/>
 
