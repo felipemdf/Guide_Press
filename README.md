@@ -1,6 +1,6 @@
 # Guide_Press
 
-Painel administrativo de um blog de artigos criada durante o curso [Formação Node.js](https://www.udemy.com/course/formacao-nodejs/) do [Guia do Programador](https://www.udemy.com/user/guia-do-programador/) afim de aplicar o conhecimento adquirido sobre arquiterua MVC e através da tecnologia Node.js.
+Painel administrativo de um blog de artigos criada durante o curso [Formação Node.js](https://www.udemy.com/course/formacao-nodejs/) do [Guia do Programador](https://www.udemy.com/user/guia-do-programador/) afim de aplicar o conhecimento adquirido sobre arquitetura MVC e através da tecnologia Node.js.
 
 ## :construction: Status <br/>
 🚀 Concluído
