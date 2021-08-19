@@ -1,0 +1,38 @@
+<%- include ('../../partials/header.ejs') %> 
+<%- include ('../../partials/navbar.ejs') %> 
+
+<div class="container">
+    <hr>
+    <div class="card">
+        <div class="card-header">
+            <h2 >New article</h2>
+        </div>
+        <div class="card-body">
+            <form action="/articles/save" method="POST"> 
+                <input class="form-control" type="text" name="title" placeholder="Write the article name"><br>
+                <textarea id="article" name="body" class="form-control" placeholder="Write the article here!"></textarea><br>
+                <label >Category</label>
+                <select class="form-control" name="category">
+                    <% categories.forEach((category) => { %> 
+                        <option value="<%= category.id %> "><%= category.title %> </option>
+                    <% }) %> 
+                </select>
+                <br>
+                <button class=" btn btn-success">Register</button>
+            </form>
+        </div>
+    </div>
+    
+</div>
+<%- include ('../../partials/footer.ejs') %> 
+
+<script src="/tinymce/tinymce.min.js"></script>
+<script>
+    tinymce.init({
+        selector: "#article",
+        plugins: [
+            'autolink link image lists preview hr insertdatetime save paste'
+        ]
+
+    })
+</script>
